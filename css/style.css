@@ -48,7 +48,7 @@ a{
     height: 900px;
     background-image: url(../img/promo_bcground.png);
     background-repeat: no-repeat;
-    margin-top: -110px;
+    margin-top: -115px;
 
     justify-content: center;
     align-items: flex-end;
@@ -73,4 +73,54 @@ a{
 
 .promo-button:hover{
     background-color: #807023;
+}
+
+.description{
+    background-color: #282828;
+    height: 856px;
+    display: flex;
+}
+
+.description-wrap{
+    border: 1px solid white;
+    margin: 100px 405px 100px 405px;
+    min-height: 656px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-wrap header h1{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+}
+
+.description-wrap hr{
+    width: 160px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.description-wrap p{
+    width: 733px;
+    text-align: center;
+    margin-left: 190px;
+    margin-right: 190px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.description-wrap img{
+    height: 160px;
+    width: 160px;
+    margin-top: 50px;
 }
