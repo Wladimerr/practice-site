@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first-screen__text{
+    z-index: -1;
+    position: fixed;
+    width: 540px;
+    height: 296px;
+    left: 403px;
+    top: 447px;
+}
+.first-screen__slider-prev{
+    position: fixed;
+    width: 108px;
+    height: 25px;
+    left: 1068px;
+    top: 875px;
+    top: 875px;
+    z-index: -2;
+    color: #ffffff;
+}
+.first-screen__slider-next{
+    position: fixed;
+    width: 108px;   
+    height: 25px;
+    left: 1330px;
+    top: 875px;
+    color: #ffffff;
+}
+.first-screen__text__button{
+    position: fixed;
+    width: 160px;
+    height: 50px;
+    left: 403px;
+    top: 693px;
+    background-color: #D1A954;
+    color: #ffffff;
+}
+.first-screen__text_t{    
+    position: fixed;
+    width: 540px;
+    height: 79px;
+    left: 403px;
+    top: 565px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.first-screen__text__title{
+    position: absolute;    
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    width: 540px;
+    height: 296px;
+    line-height: 87px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.first-screen__slider-container__1{
+    z-index: -2;
+    position: absolute;        
+}
+.first-screen__slider-container__2{
+    z-index: -3;
+    position: absolute;
+    margin:20px;
+}
+.first-screen__text_t{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.first-screen__slider{
+    position: absolute;
+    width: 370px;
+    height: 570px;
+    left: 1068px;
+    top: 330px;
+}
+.warp{
+    width: 1140;
+    margin: 0 auto;
+}
+.first-screen__slider{
+    position: absolute;
+    width: 370px;
+    height: 570px;
+    left: 1068px;
+    top: 330px;
+}
+.menu__header{
+    
+    z-index: -5;
+    position: absolute;
+    width: 1110px;
+    height: 27px;
+    left: 403px;
+    top: 113px;
+}
+.a{
+    text-decoration: none; 
+}
+.menu__button__left{  
+        
+    margin-right: 63px;
+    font-size: 18px;
+    position: absolute;
+    width: 824px;
+    height: 25px;
+    left: 403px;
+    top: 114px;
+    color: #ffff;
+}
+.gimg{
+    z-index: -10;
+    position:absolute;
+    width: 1920px;
+    height: 1045px;
+    left: -2px;
+    top: 63px;    
+    background-image: url(/img/first-screen/Bolshoi\ theatre.png);
+    background: linear-gradient(0deg, rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85));
+}
+.fixed-panel__group{
+    z-index: -5;
+    position: absolute;
+    width: 150px;
+    height: 1045px;
+    left: 0px;
+    top: 63px;  
+}
+.soc-links{
+    position: absolute;
+    width: 26px;
+    height: 174px;
+    left: 64px;
+    top: 848px;    
+}
+.fixed-panel__other__text{
+    z-index: 0;
+    position:fixed;
+    width: 242px;
+    height: 25px;
+    left: -55px;
+    top: 500px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #C4C4C4;
+    transform: rotate(-90deg);
+}
+.phone{
+    color: #ffffff;    
+}
+.menu__button__right{
+    position: fixed;
+    width: 119px;
+    height: 27px;
+    left: 1394px;
+    top: 113px;
+}
+.menu__header{
+    background-color: #333333;
+    padding: 10px;    
+}
