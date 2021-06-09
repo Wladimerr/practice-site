@@ -5,13 +5,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:wght@300;400&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Большой театр</title>
 </head>
 
 <body>
-    <header class="menu__header">
-        <section class="warp header-warp">
+    <section class="fixed-panel">
+        <img class="fixpanel" src="/img/first-screen/Fixpanel.png" alt="">
+        <div class="fixed-panel__other">
+            <p class="fixed-panel__other__text">КОНТАКТНАЯ ИНФОРМАЦИЯ</p>
+            <img class="vert_line" src="/img/first-screen/vert_line.png" alt="">
+            <div class="soc-links">
+                <img class="inst-ico" src="/img/first-screen/inst.png" alt="Instagram">
+                <img class="facebook-ico" src="/img/first-screen/facebook.png" alt="Facebook">
+                <img class="vk-ico" src="/img/first-screen/vk.png" alt="VK">
+                <img class="youtube-ico" src="/img/first-screen/youtube.png" alt="YouTube">
+            </div>
+        </div>
+
+    </section>
+
+    <section class="first-screen">
+        <div class="menu">
             <nav class="menu__button__left">
                 <a href="index.html">ГЛАВНАЯ</a>
                 <a href="#">О ТЕАТРЕ</a>
@@ -19,28 +41,11 @@
                 <a href="#">ПАРТЕРЫ ТЕАТРА</a>
                 <a href="#">КОНТАКТЫ</a>
             </nav>
-            <section class="menu__button__right">
+            <div class="menu__button__right">
                 <p class="phone">+7 495 123-45-67</p>
-                <img src="/img/first-screen/horiz_line.png" alt="">
-            </section>
-        </section>
-    </header>
-    <section class="fixed-panel">
-        <section class="fixed-panel__group">
-            <img src="/img/first-screen/Fixpanel.png" alt="">
-            <section class="soc-links">
-                <img src="/img/first-screen/inst.png" alt="Instagram">
-                <img src="/img/first-screen/facebook.png" alt="Facebook">
-                <img src="/img/first-screen/vk.png" alt="VK">
-                <img src="/img/first-screen/youtube.png" alt="YouTube">
-            </section>
-            <section class="fixed-panel__other">
-                <p class="fixed-panel__other__text">КОНТАКТНАЯ ИНФОРМАЦИЯ</p>
-                <img src="/img/first-screen/vert_line.png" alt="">
-            </section>
-        </section>
-    </section>
-    <section class="first-screen">
+                <img class="hor_line" src="/img/first-screen/horiz_line.png" alt="">
+            </div>
+        </div>
         <section class="first-screen__text">
             <p class="first-screen__text__title">БОЛЬШОЙ ТЕАТР</p>
             <p class="first-screen__text_t">Большо́й теа́тр — петербургский театр, существовавший в 1784—1886 годах, с
@@ -52,21 +57,25 @@
             </button>
         </section>
         <section class="first-screen__slider">
-            <section class="first-screen__slider-prev">
+            <div class="first-screen__slider-prev">
+                <img class="arrow-l" src="/img/first-screen/Arrow.png" alt="">
                 <p class="first-screen__slider-prev__text">ПРЕД</p>
-            </section>
-            <section class="first-screen__slider-next">
+            </div>
+            <div class="first-screen__slider-next">
+                <img class="arrow-r" src="/img/first-screen/Arrow.png" alt="">
                 <p class="first-screen__slider-next__text">СЛЕД</p>
-            </section>
-            <section class="first-screen__slider-container__1">
-                <img src="img/first-screen/la skala.png" alt="ЛА СКАЛА">
-            </section>
-            <section class="first-screen__slider-container__2">
-                <img src="img/first-screen/la skala_sepia.png" alt="">
-            </section>
+            </div>
+            <div class="first-screen__slider-conteiners">
+                <div class="first-screen__slider-container__1">
+                    <img src="img/first-screen/la skala.png" alt="ЛА СКАЛА">
+                </div>
+                <div class="first-screen__slider-container__2">
+                    <img src="img/first-screen/la skala_sepia.png" alt="">
+                </div>
+            </div>
         </section>
         <section class="gimg">
-            <img src="/img/first-screen/Bolshoi theatre.png" alt="Большой театр">
+            <img class="bol-theatre" src="/img/first-screen/Bolshoi theatre.png" alt="Большой театр">
         </section>
     </section>
     </section>
