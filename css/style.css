@@ -8,9 +8,13 @@ a{
     border: 1px solid white;
     padding: 10px 109px 10px 109px;
     border-left-width: 0;
-
     text-decoration: none;
     color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
 }
 
 .header-info{
@@ -23,6 +27,11 @@ a{
 
 .header-info p{
     color: white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 150%;
 }
 
 .header-nav{
@@ -53,8 +62,13 @@ a{
     background-color: #99862A;
 }
 
-.promo-button{
+.promo-button p{
     color:white;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
 }
 
 .promo-button:hover{
