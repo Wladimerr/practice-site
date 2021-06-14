@@ -1,11 +1,12 @@
 *{    
     padding: 0; 
     font-family: 'Open Sans Condensed', sans-serif;  
-    max-width: 1920px;
-    margin:auto;         
+    margin:0px;
 }
 body{
-    background: #333333; 
+    background: #333333;      
+    max-width: 1920px;
+    margin:auto;
 }
 
 
@@ -24,8 +25,7 @@ body{
     font-weight: 700; 
     font-size: 18px;
     line-height: 25px;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
+    letter-spacing: 0.1em;    
     color: #C4C4C4;
     transform: rotate(-90deg);
     display: flex;
@@ -72,7 +72,7 @@ body{
     width:auto;
     height:auto;
     display: flex;
-    padding: 40px 110px 0px 0px;
+    padding: 40px 70px 0px 70px;
 }
 
 
@@ -238,9 +238,11 @@ a:hover{
 /*Блок с информацией о Большом театре*/
 
 .about{
+    margin: auto;
     width: 1110px;
     height: 457px;
     padding-top: 1195px;
+    padding-bottom: 150px;
     color: white;
     display: flex;
     align-items: center;
@@ -254,7 +256,7 @@ a:hover{
 }
 .about__numbers{
     order: 2;
-    margin: 60px 70px 20px 30px;    
+    margin: 0px 70px 20px 30px;    
 }
 .about__text{
     order: 1;       
@@ -307,4 +309,71 @@ a:hover{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700;
     letter-spacing: 0.05em;
+}
+
+
+/*Блок с постановками*/
+
+.projects{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;   
+     
+}
+.projects__text__title{    
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    font-size: 48px;
+    line-height: 65px;
+    color: white;
+    padding-bottom: 100px;
+    align-self: center;
+}
+.prohects__slider{      
+    padding-left: 150px;
+    display: flex;    
+    margin: 0px;
+}
+.projects__item:hover{
+    opacity: 0.8;
+}
+.projects__item-active{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search__b{
+    border: none;
+    border-radius: 50%;
+    padding: 35px;
+    position: absolute;
+    background: #D1A954;
+}
+.search__b:hover{
+    background: #b18e44;
+}
+.projects__text{
+    height: 550px;
+    width: 442px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    position: absolute;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 24px;
+}
+.name__of__projects{
+    padding: 40px;
+}
+.date__of__projects{  
+    /*TO DO*/
+    transform: rotate(0deg);
+    align-self:flex-start;      
+    padding-bottom: 40px;
+    padding-left: 40px;
+    font-size: 18px;
 }
