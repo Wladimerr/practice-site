@@ -35,10 +35,10 @@
     <main>
         <section class="promo">
             <div class="wrap promo-wrap">
-                <button class="promo-button">
+                <button class="default-button">
                     <p>ВИННАЯ КАРТА</p>
                 </button>
-                <button class="promo-button">
+                <button class="default-button">
                     <p>ДЕГУСТАЦИЯ</p>
                 </button>
             </div>
@@ -47,7 +47,7 @@
         <section class="description">
             <div class="wrap description-wrap">
                 <header class="description-title">
-                    <h2>Лучший вкус, это вкус долголетнего вина</h1>
+                    <h2>Лучший вкус, это вкус долголетнего вина</h2>
                 </header>
                 <hr>
                 <p>
@@ -120,7 +120,7 @@
                         <span>Pellentesque nisi, mi sit non sit sed fermentum. Felis adipiscing</span>
                         <span>morbi sodales ac.</span>
                     </p>
-                    <button>
+                    <button class="default-button">
                         <p>УЗНАТЬ ПОДРОБНЕЕ</p>
                     </button>
                 </div>
@@ -131,10 +131,36 @@
                         <img src="img/gallery3.png" alt="">
                     </div>
                 </div>
-
+            </div>
+        </section>
+        <section class="degustation">
+            <div class="wrap degustation-wrap">
+                <img class="degustation-img-left" src="img/degustation-grape.png" alt="">
+                <img class="degustation-img-right" src="img/degustation-barrel.png" alt="">
+                <div class="degustation-content">
+                    <h2>Запись на дегустацию</h2>
+                    <hr>
+                    <p>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat</span>
+                        <span>enim tortor in hac id imperdiet adipiscing. Pellentesque nisi, mi sit</span>
+                        <span>non sit sed fermentum.</span>
+                    </p>
+                    <div class="degustation-inputs">
+                        <div class="degustation-inputs-row1">
+                            <input type="text" placeholder="Имя" name="name">
+                            <input type="text" placeholder="Телефон" name="phone">
+                        </div>
+                        <input type="text" placeholder="Бутик на Невском 103" name="address">
+                    </div>
+                    <button id="degustation-submit">
+                        <p>ЗАПИСАТЬСЯ</p>
+                    </button>
+                </div>
             </div>
         </section>
     </main>
+    <footer class="wrap footer-wrap">
+    </footer>
 </body>
 
 </html>

@@ -58,7 +58,7 @@ a{
     align-items: flex-end;
 }
 
-button{
+.default-button{
     padding: 15px 30px 15px 30px;
     border: none;
     background-color: #99862A;
@@ -78,7 +78,7 @@ button p{
     margin-bottom: 150px;
 }
 
-button:hover{
+.default-button:hover{
     background-color: #807023;
 }
 
@@ -89,7 +89,7 @@ button:hover{
 }
 
 .description-wrap{
-    border: 1px solid white;
+    border: 3px solid white;
     margin: 100px 405px 100px 405px;
     min-height: 656px;
     color: white;
@@ -260,4 +260,129 @@ table p{
 #gallery-row2{
     display: flex;
     justify-content: space-between;
+}
+
+.degustation{
+    background-color: #282828;
+    min-height: 767px;
+    display: flex;
+}
+
+.degustation-wrap{
+    margin: 129px 405px 100px 405px;
+    border: 3px solid white;
+    max-height: 538px;
+    z-index: 2;
+}
+
+.degustation-content{
+    position: relative;
+    top: -260px;
+    margin: 0px 285px 80px 285px;
+}
+
+.degustation h2{
+    margin: -39px 0px 30px 0px;
+    justify-self: center;
+    color: white;
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    background-color: #282828;
+    padding: 10px 50px 10px 50px;
+    max-width: 490px;
+    max-height: 74px;
+}
+
+.degustation-img-left{
+    width: 260px;
+    height: 260px;
+    position: relative;
+    left: -50px;
+    top: -69px;
+}
+
+.degustation-img-right{
+    width: 260px;
+    height: 200px;
+    position: relative;
+    right: -650px;
+    top: -125px;
+}
+
+.degustation-wrap hr{
+    width: 118px;
+    border: 1px solid white;
+    margin-bottom: 40px;
+}
+
+.degustation-wrap p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: white;
+}
+
+.degustation-wrap span{
+    display: block;
+}
+
+.degustation-inputs, .degustation-inputs-row1{
+    min-width: 540px;
+}
+
+.degustation-inputs-row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.degustation-inputs input{
+    min-width: 255px;
+    max-width: 255px;
+    height: 30px;
+    background-color: #282828;
+    border: 0;
+    border-bottom: 1px solid white;
+    color: white;
+    outline: 0;
+    margin: 0;
+}
+
+.degustation-wrap input::placeholder{
+    color: white;
+}
+
+.degustation-inputs{
+    margin: 81px 0px 50px 0px;
+}
+
+.degustation-inputs-row1{
+    margin-bottom: 40px;
+}
+
+.degustation-inputs > input{
+    min-width: 540px;
+}
+
+#degustation-submit{
+    padding: 15px 209px 15px 209px;
+    background-color: #282828;
+    border: 1px solid white;
+    width: 541px;
+    height: 50px;
+}
+
+#degustation-submit:hover{
+    background-color: #404040;
+}
+
+.footer-wrap{
+    height: 220px;
+    background-color: #998431;
 }
