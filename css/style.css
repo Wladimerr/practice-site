@@ -54,20 +54,17 @@ a{
     background-image: url(../img/promo_bcground.png);
     background-repeat: no-repeat;
     margin-top: -115px;
-
     justify-content: center;
     align-items: flex-end;
 }
 
-.promo-wrap button{
-    margin: 30px;
-    margin-bottom: 150px;
+button{
     padding: 15px 30px 15px 30px;
     border: none;
     background-color: #99862A;
 }
 
-.promo-button p{
+button p{
     color:white;
     font-family: Montserrat;
     font-style: normal;
@@ -76,7 +73,12 @@ a{
     line-height: 20px;
 }
 
-.promo-button:hover{
+.promo-wrap button{
+    margin: 30px;
+    margin-bottom: 150px;
+}
+
+button:hover{
     background-color: #807023;
 }
 
@@ -97,7 +99,8 @@ a{
     align-items: center;
 }
 
-.description-wrap header h1{
+.description-wrap header h2{
+    margin-top: 60px;
     font-family: Playfair Display;
     font-style: normal;
     font-weight: bold;
@@ -110,6 +113,7 @@ a{
     width: 160px;
     margin-top: 40px;
     margin-bottom: 40px;
+    border: 1px solid white;
 }
 
 .description-wrap p{
@@ -128,4 +132,132 @@ a{
     height: 160px;
     width: 160px;
     margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.new-wines{
+    max-height: 1038px;
+    background-color: #E6E3C4;
+    padding: 80px 405px 80px 405px;
+}
+
+.new-wines-wrap{
+    height: 878px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #998431;
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.new-wines-wrap > hr{
+    width: 1110px;
+    border: 1px solid #998431;
+}
+
+.wines-info{
+    margin: 60px 0px 60px 0px;
+}
+
+.wines-info > *{
+    margin-bottom: 30px;
+}
+
+.wines-info > hr{
+    margin-left: 0px;
+    width: 160px;
+    border: 1px solid #282828;
+}
+
+.wines-info p{
+    max-width: 445px;
+
+}
+
+.wines-info span{
+    display: block;
+}
+
+.wines-info h2{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 150%;
+    color: #282828;
+}
+
+#new-wines-title{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;  
+    color: #000000;
+}
+
+.new-wines-text{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+}
+
+table{
+    margin: 30px 0px 30px 0px;
+    border-spacing: 0;
+}
+
+table h3{
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 150%;
+    color: #282828;
+}
+
+table p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    color: #282828;
+}
+
+#wines-table-row2 td{
+    border-top: 1px solid #282828;
+    border-bottom: 1px solid #282828;
+}
+
+.wines-table-year{
+    padding: 26px 24px 26px 24px;
+    border-right: 1px solid #282828;
+}
+
+.wines-table-info{
+    padding: 10px 37px 15px 30px;
+}
+
+.gallery{
+    width: 540px;
+    margin-right: 0px;
+}
+
+.gallery img{
+    margin: 0px;
+}
+
+#gallery-img1{
+    margin-bottom: 30px;
+    max-width: 540px;
+    max-height: 500px;
+}
+
+#gallery-row2{
+    display: flex;
+    justify-content: space-between;
 }
