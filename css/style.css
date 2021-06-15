@@ -113,7 +113,9 @@ a{
     width: 160px;
     margin-top: 40px;
     margin-bottom: 40px;
-    border: 1px solid white;
+    border: 0;
+    height: 1px;
+    background-color: white;
 }
 
 .description-wrap p{
@@ -152,7 +154,9 @@ a{
 
 .new-wines-wrap > hr{
     width: 1110px;
-    border: 1px solid #998431;
+    border: 0;
+    height: 1px;
+    background-color: #998431;
 }
 
 .wines-info{
@@ -166,7 +170,9 @@ a{
 .wines-info > hr{
     margin-left: 0px;
     width: 160px;
-    border: 1px solid #282828;
+    border: 0;
+    height: 1px;
+    background-color: #282828;
 }
 
 .wines-info p{
@@ -315,7 +321,9 @@ table p{
 
 .degustation-wrap hr{
     width: 118px;
-    border: 1px solid white;
+    border: 0;
+    height: 1px;
+    background-color:  white;
     margin-bottom: 40px;
 }
 
@@ -405,7 +413,7 @@ table p{
 
 .footer-nav a{
     margin: 19px 30px 20px 30px;
-    border-width: 0px;
+    border: 0px;
     border-right-width: 0px;
     max-height: 21px;
     padding: 0;
@@ -443,7 +451,7 @@ table p{
 }
 
 .footer-nav-info a{
-    border-width: 0px;
+    border: 0px;
 }
 
 .footer-soc-icons > a{
