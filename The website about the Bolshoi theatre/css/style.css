@@ -386,6 +386,7 @@ a:hover{
     justify-content: center;
     align-items:center;
     margin: auto;
+    margin-bottom: 150px;
 }
 .rating__text{
     width: 825px;
@@ -397,8 +398,8 @@ a:hover{
     font-weight: 700; 
     font-size: 72px;
     line-height: 98px;
-    letter-spacing: 0.1em;
     color: #D1A954;
+    letter-spacing: 0.1em;    
 }
 .overview__text{
     text-align:left;
@@ -409,3 +410,40 @@ a:hover{
     color: white;
     letter-spacing: 0.05em;
 }
+
+
+/*Блок партнёров*/
+
+.partners{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 120px;
+}
+.partners__title{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    line-height: 65px;
+    font-size: 48px;
+    color: white;
+    padding-bottom: 100px;
+}
+.partnets{
+    width: 1124px;
+    height: 274px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.gazprom{
+    padding-right: 80px;
+    padding-bottom: 80px;  
+}
+.gz1{
+    padding-right: 0px;
+    padding-bottom: 0px;  
+}
+
+
