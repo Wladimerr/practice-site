@@ -341,16 +341,16 @@ table p{
     display: block;
 }
 
-.degustation-inputs, .degustation-inputs-row1{
+.degustation-form, .degustation-form-row1{
     min-width: 540px;
 }
 
-.degustation-inputs-row1{
+.degustation-form-row1{
     display: flex;
     justify-content: space-between;
 }
 
-.degustation-inputs input{
+.degustation-form input{
     min-width: 255px;
     max-width: 255px;
     height: 30px;
@@ -366,15 +366,15 @@ table p{
     color: white;
 }
 
-.degustation-inputs{
+.degustation-form{
     margin: 81px 0px 50px 0px;
 }
 
-.degustation-inputs-row1{
+.degustation-form-row1{
     margin-bottom: 40px;
 }
 
-.degustation-inputs > input{
+.degustation-form > input{
     min-width: 540px;
 }
 
